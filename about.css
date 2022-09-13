@@ -156,7 +156,27 @@ headline
 logo-competition
 */
 
-.logo-competition > p {
+.underline {
+  height: 1px;
+  background-color: #ec5242;
+  width: 2em;
+  margin-top: 0.5em;
+}
+
+.logo-competition,
+.past-summit,
+.sponsors {
+  padding: 2.5em 1em;
+  border-bottom: 2px solid #e8e6e6ce;
+}
+
+.logo-competition > h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.logo-competition > p,
+.past-summit > p {
   font-size: 0.8em;
   width: 75vw;
   margin: 0 auto;
@@ -184,6 +204,38 @@ past icp
 .past-links img {
   max-width: 100%;
   max-height: 100%;
+}
+
+/*
+sponsors
+*/
+
+.sponsors {
+  background-color: #272a31;
+}
+
+.sponsors h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: white;
+}
+
+.sponsors-logo {
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+  justify-content: space-between;
+}
+
+.sponsors-logo > div {
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.logos img {
+  width: 6em;
 }
 
 @media screen and (max-width: 768px) {
