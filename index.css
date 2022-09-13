@@ -19,3 +19,46 @@ header {
   padding: 1em;
   color: #272a31;
 }
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .main-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bar-menu {
+    display: none;
+  }
+
+  .navbar-style {
+    box-shadow: 0 5px 15px -10px #272a31;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 0.5em 7em;
+  }
+
+  .main-menu {
+    display: flex;
+  }
+
+  .navitem {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .navlink {
+    display: flex;
+    padding: 0.5em 2em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 400;
+  }
+
+  .navlink:hover {
+    color: #ec5242;
+  }
+}
