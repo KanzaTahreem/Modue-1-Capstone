@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.brand-color {
+  color: #ec5242;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+
+.hamburger {
+  font-size: 2em;
+  padding: 1em;
+  color: #272a31;
+}
