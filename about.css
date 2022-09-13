@@ -152,6 +152,22 @@ headline
   font-weight: 700;
 }
 
+/*
+logo-competition
+*/
+
+.logo-competition > p {
+  font-size: 0.8em;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.logo-competition img {
+  width: 20em;
+  padding: 1.3em;
+  border: 2px solid #e8e6e6ce;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
