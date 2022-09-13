@@ -191,6 +191,10 @@ program section
   .main-menu {
     display: none;
   }
+
+  .program-details-link {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -255,5 +259,36 @@ program section
 
   .date {
     font-size: 2em;
+  }
+
+  /*
+  program section
+  */
+
+  .program-details {
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .program-card {
+    flex-direction: column;
+    text-align: center;
+    margin: 0.2em;
+  }
+
+  .program-card h3 {
+    width: 100%;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .program-details-link {
+    margin: 3em 0;
+    color: #d3d3d3;
+    font-size: 1.2em;
   }
 }
