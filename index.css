@@ -225,6 +225,25 @@ featured speakers
   height: 1px;
 }
 
+/*
+sponsors
+*/
+
+.sponsors {
+  background-color: #272a31;
+}
+
+.sponsors-logo {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  justify-content: space-between;
+}
+
+.logos img {
+  width: 7em;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
