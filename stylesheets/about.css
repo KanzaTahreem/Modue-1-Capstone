@@ -1,96 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
-.brand-color {
-  color: #ec5242;
-}
-
-* {
-  font-family: 'Lato', sans-serif;
-}
-
-header {
-  position: absolute;
-  top: 0;
-  z-index: 999;
-}
-
 /*
-nav-bar
+headline section
 */
-
-.hamburger {
-  font-size: 2em;
-  padding: 1em;
-  color: #272a31;
-}
-
-/*
-headline
-*/
-
-.headline {
-  background-image: url('./images/background-01.jpg');
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(247, 247, 248, 0.9);
-  padding: 9em 1em;
-}
-
-.bg-01 {
-  width: 30px;
-  height: 30px;
-  top: 10%;
-  left: 15%;
-  opacity: 0.4;
-  position: absolute;
-}
-
-.bg-02 {
-  width: 20px;
-  height: 20px;
-  top: 94%;
-  left: 35%;
-  opacity: 0.4;
-  position: absolute;
-}
-
-.bg-03 {
-  width: 40px;
-  height: 40px;
-  top: 4%;
-  right: 30%;
-  opacity: 0.2;
-  transform: rotate(25deg);
-  position: absolute;
-}
-
-.bg-04 {
-  width: 40px;
-  height: 40px;
-  top: 79%;
-  left: 7%;
-  opacity: 0.3;
-  transform: rotate(10deg);
-  position: absolute;
-}
-
-.bg-05 {
-  width: 40px;
-  height: 40px;
-  top: 30%;
-  right: -18px;
-  position: absolute;
-}
 
 .bg-06 {
   width: 40px;
@@ -119,26 +29,13 @@ headline
   position: absolute;
 }
 
-.greet {
-  font-weight: 500;
-  font-size: 1.3em;
-}
-
-.header {
-  font-size: 1.7em;
-  font-weight: 600;
-}
-
 .title {
-  font-weight: 900;
   font-size: 2em;
 }
 
 .subtitle {
   border: 2px solid #e8e6e6ce;
   background-color: white;
-  color: #272a31;
-  padding: 1em 0.5em;
   font-size: 0.9em;
 }
 
@@ -155,13 +52,6 @@ headline
 /*
 logo-competition
 */
-
-.underline {
-  height: 1px;
-  background-color: #ec5242;
-  width: 2em;
-  margin-top: 0.5em;
-}
 
 .logo-competition,
 .past-summit,
@@ -210,10 +100,6 @@ past icp
 sponsors
 */
 
-.sponsors {
-  background-color: #272a31;
-}
-
 .sponsors h2 {
   font-size: 1.3em;
   font-weight: 700;
@@ -222,20 +108,13 @@ sponsors
 
 .sponsors-logo {
   flex-direction: column;
-  width: 90%;
-  margin: 0 auto;
   padding: 1em 0;
-  justify-content: space-between;
 }
 
 .sponsors-logo > div {
   justify-content: center;
   align-items: center;
   gap: 1em;
-}
-
-.logos img {
-  width: 6em;
 }
 
 /*
@@ -245,11 +124,6 @@ footer
 footer {
   background-color: #272a31;
   color: white;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 3em 0;
   gap: 2em;
 }
 
@@ -257,93 +131,13 @@ footer {
   width: 3em;
 }
 
-@media screen and (max-width: 600px) {
-  .logos img {
-    padding-bottom: 1em;
-  }
-
-  .sponsors-logo {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .logo,
-  .main-menu {
-    display: none;
-  }
-
-  .program-details-link {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  /*
-  nav-bar
-  */
-
-  .bar-menu {
-    display: none;
-  }
-
-  .navbar-style {
-    box-shadow: 0 5px 15px -10px #272a31;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    padding: 0.5em 7em;
-  }
-
-  .main-menu {
-    display: flex;
-  }
-
-  .navitem {
-    list-style-type: none;
-    display: flex;
-  }
-
-  .navlink {
-    display: flex;
-    padding: 0.5em 2em;
-    font-size: 0.8em;
-    text-decoration: none;
-    color: #272a31;
-    font-weight: 400;
-  }
-
-  .navlink:hover {
-    color: #ec5242;
-  }
-
   /*
   headline
   */
 
-  main {
-    padding-top: 57.06px;
-  }
-
-  .overlay {
-    padding: 9em;
-  }
-
-  .greet {
-    font-size: 1.75em;
-  }
-
-  .header {
-    font-size: 2em;
-  }
-
   .title {
     font-size: 3em;
-  }
-
-  .subtitle {
-    margin-bottom: 2em;
   }
 
   .date {
