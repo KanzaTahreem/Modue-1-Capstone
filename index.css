@@ -330,4 +330,19 @@ featured speakers
     color: #d3d3d3;
     font-size: 1.2em;
   }
+
+  /*
+  featured speakers
+  */
+
+  .speaker-card {
+    width: 50%;
+  }
+
+  .speaker-details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 2em auto;
+  }
 }
