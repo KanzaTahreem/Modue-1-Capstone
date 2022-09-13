@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KanzaTahreem/Module-1-Capstone/issues"
   },
-  "homepage": "https://github.com/KanzaTahreem/Module-1-Capstone#readme"
+  "homepage": "https://github.com/KanzaTahreem/Module-1-Capstone#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
 }
