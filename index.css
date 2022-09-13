@@ -20,6 +20,102 @@ header {
   color: #272a31;
 }
 
+.headline {
+  background-image: url('./images/background-01.jpg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 9em 1em;
+}
+
+.bg-01 {
+  width: 30px;
+  height: 30px;
+  top: 10%;
+  left: 15%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-02 {
+  width: 20px;
+  height: 20px;
+  top: 94%;
+  left: 35%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-03 {
+  width: 40px;
+  height: 40px;
+  top: 4%;
+  right: 30%;
+  opacity: 0.2;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.bg-04 {
+  width: 40px;
+  height: 40px;
+  top: 79%;
+  left: 7%;
+  opacity: 0.3;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+.bg-05 {
+  width: 40px;
+  height: 40px;
+  top: 30%;
+  right: -18px;
+  position: absolute;
+}
+
+.greet {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2.3em;
+}
+
+.subtitle {
+  border: 3px solid white;
+  background-color: #f4f4f4;
+  color: #272a31;
+  padding: 1em 0.5em;
+}
+
+.date {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #272a31;
+}
+
+.venu {
+  font-size: 1.25em;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
