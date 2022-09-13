@@ -168,6 +168,24 @@ logo-competition
   border: 2px solid #e8e6e6ce;
 }
 
+/*
+past icp
+*/
+
+.past-summit > h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.past-links {
+  flex-direction: column;
+}
+
+.past-links img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
