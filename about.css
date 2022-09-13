@@ -268,4 +268,15 @@ past icp
   .date {
     font-size: 2em;
   }
+
+  /*
+  past icp
+  */
+
+  .past-links {
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
