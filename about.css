@@ -201,4 +201,37 @@ headline
   .navlink:hover {
     color: #ec5242;
   }
+
+  /*
+  headline
+  */
+
+  main {
+    padding-top: 57.06px;
+  }
+
+  .overlay {
+    padding: 9em;
+  }
+
+  .greet {
+    font-size: 1.75em;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .subtitle {
+    width: 55vw;
+    margin-bottom: 2em;
+  }
+
+  .date {
+    font-size: 2em;
+  }
 }
