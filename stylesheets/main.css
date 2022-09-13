@@ -129,11 +129,25 @@ sponsors
 .sponsors-logo {
   width: 90%;
   margin: 0 auto;
+  flex-direction: column;
+  padding: 1em 0;
   justify-content: space-between;
 }
 
 .sponsors-logo .logos img {
   width: 6em;
+}
+
+.sponsors h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: white;
+}
+
+.sponsors-logo > div {
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 footer {
