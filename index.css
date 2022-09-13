@@ -186,6 +186,45 @@ program section
   color: white;
 }
 
+/*
+featured speakers
+*/
+
+.featured-speakers {
+  padding: 2em 1em;
+}
+
+.speaker-img img {
+  width: 9em;
+  margin-right: 1em;
+}
+
+.speaker-card {
+  width: 100%;
+}
+
+.speaker-title {
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.speaker-qualification {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.speaker-desc {
+  font-size: 0.7em;
+}
+
+.speaker-underline {
+  background-color: #d3d3d3;
+  margin: 1em 0;
+  width: 1.5em;
+  height: 1px;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
