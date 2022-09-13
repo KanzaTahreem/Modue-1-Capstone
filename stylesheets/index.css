@@ -123,14 +123,6 @@ featured speakers
   height: 1px;
 }
 
-/*
-sponsors
-*/
-
-.sponsors-logo {
-  padding-bottom: 3em;
-}
-
 @media screen and (min-width: 768px) {
   /*
   headline section

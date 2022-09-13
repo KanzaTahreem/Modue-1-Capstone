@@ -97,27 +97,6 @@ past icp
 }
 
 /*
-sponsors
-*/
-
-.sponsors h2 {
-  font-size: 1.3em;
-  font-weight: 700;
-  color: white;
-}
-
-.sponsors-logo {
-  flex-direction: column;
-  padding: 1em 0;
-}
-
-.sponsors-logo > div {
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
-/*
 footer
 */
 
