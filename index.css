@@ -244,6 +244,17 @@ sponsors
   width: 7em;
 }
 
+@media screen and (max-width: 600px) {
+  .logos img {
+    padding-bottom: 1em;
+  }
+
+  .sponsors-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
@@ -363,5 +374,14 @@ sponsors
     flex-wrap: wrap;
     width: 80vw;
     margin: 2em auto;
+  }
+
+  /*
+  sponsors
+  */
+
+  .sponsors-logo {
+    width: 65vw;
+    margin: 0 auto;
   }
 }
