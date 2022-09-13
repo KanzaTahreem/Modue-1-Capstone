@@ -238,6 +238,19 @@ sponsors
   width: 6em;
 }
 
+/*
+footer
+*/
+
+footer {
+  background-color: #272a31;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3em 0;
+}
+
 @media screen and (max-width: 768px) {
   .logo,
   .main-menu {
