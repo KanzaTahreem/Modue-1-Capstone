@@ -14,8 +14,191 @@ header {
   z-index: 999;
 }
 
+/*
+nav-bar
+*/
+
 .hamburger {
   font-size: 2em;
   padding: 1em;
   color: #272a31;
+}
+
+/*
+headline
+*/
+
+.headline {
+  background-image: url('./images/background-01.jpg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 248, 0.9);
+  padding: 9em 1em;
+}
+
+.bg-01 {
+  width: 30px;
+  height: 30px;
+  top: 10%;
+  left: 15%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-02 {
+  width: 20px;
+  height: 20px;
+  top: 94%;
+  left: 35%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-03 {
+  width: 40px;
+  height: 40px;
+  top: 4%;
+  right: 30%;
+  opacity: 0.2;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.bg-04 {
+  width: 40px;
+  height: 40px;
+  top: 79%;
+  left: 7%;
+  opacity: 0.3;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+.bg-05 {
+  width: 40px;
+  height: 40px;
+  top: 30%;
+  right: -18px;
+  position: absolute;
+}
+
+.bg-06 {
+  width: 40px;
+  height: 40px;
+  top: 14%;
+  right: 3%;
+  position: absolute;
+}
+
+.bg-07 {
+  width: 40px;
+  height: 40px;
+  top: 85%;
+  right: 4%;
+  opacity: 0.5;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.bg-08 {
+  width: 40px;
+  height: 40px;
+  top: 44%;
+  left: 6%;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.greet {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.subtitle {
+  border: 2px solid #e8e6e6ce;
+  background-color: white;
+  color: #272a31;
+  padding: 1em 0.5em;
+  font-size: 0.9em;
+}
+
+.footer {
+  font-size: 0.8em;
+}
+
+.email-to {
+  font-size: 0.9em;
+  color: #272a31;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .main-menu {
+    display: none;
+  }
+
+  .program-details-link {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*
+  nav-bar
+  */
+
+  .bar-menu {
+    display: none;
+  }
+
+  .navbar-style {
+    box-shadow: 0 5px 15px -10px #272a31;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 0.5em 7em;
+  }
+
+  .main-menu {
+    display: flex;
+  }
+
+  .navitem {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .navlink {
+    display: flex;
+    padding: 0.5em 2em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 400;
+  }
+
+  .navlink:hover {
+    color: #ec5242;
+  }
 }
