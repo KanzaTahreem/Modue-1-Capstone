@@ -101,12 +101,8 @@ footer
 */
 
 footer {
-  background-color: #272a31;
-  color: white;
-}
-
-.footer-logo img {
-  width: 3em;
+  background-color: white;
+  color: #272a31;
 }
 
 @media screen and (min-width: 768px) {
