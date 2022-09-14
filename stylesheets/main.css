@@ -14,9 +14,7 @@ header {
   z-index: 999;
 }
 
-/*
-nav-bar
-*/
+/* nav-bar */
 
 .hamburger {
   font-size: 2em;
@@ -24,9 +22,50 @@ nav-bar
   color: #272a31;
 }
 
-/*
-headline section
-*/
+/* mobile pop-up menu */
+
+.pop-up {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  mix-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 2.25em;
+  backdrop-filter: blur(15px);
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  padding-top: 0.5em;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(211, 211, 211, 0.1);
+}
+
+.close {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.75em;
+  cursor: pointer;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* headline section */
 
 .headline {
   background-image: url('../images/background-images/background.jpg');
@@ -119,9 +158,7 @@ headline section
   margin-top: 0.5em;
 }
 
-/*
-sponsors
-*/
+/* sponsors */
 
 .sponsors {
   background-color: #272a31;
@@ -178,8 +215,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .logo,
-  .main-menu {
+  .logo {
     display: none;
   }
 
@@ -189,9 +225,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  /*
-  nav-bar
-  */
+  /* nav-bar */
 
   .bar-menu {
     display: none;
@@ -205,13 +239,29 @@ footer {
     padding: 0.5em 7em;
   }
 
-  .main-menu {
-    display: flex;
-  }
-
   .navitem {
     list-style-type: none;
     display: flex;
+  }
+
+  .hidden {
+    display: flex !important;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .pop-up {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: white;
+    color: #272a31;
+    position: relative;
+    width: initial;
+    height: initial;
+    gap: 2em;
   }
 
   .navlink {
@@ -231,9 +281,7 @@ footer {
     padding-top: 57.06px;
   }
 
-  /*
-  headline
-  */
+  /* headline */
 
   .overlay {
     padding: 9em;
