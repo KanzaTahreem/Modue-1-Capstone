@@ -124,6 +124,8 @@ sponsors
 
 .sponsors {
   background-color: #272a31;
+  color: #d3d3d3;
+  padding: 2em 0;
 }
 
 .sponsors-logo {
@@ -132,6 +134,7 @@ sponsors
   flex-direction: column;
   padding: 1em 0;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .sponsors-logo .logos img {
@@ -141,7 +144,6 @@ sponsors
 .sponsors h2 {
   font-size: 1.3em;
   font-weight: 700;
-  color: white;
 }
 
 .sponsors-logo > div {
@@ -156,6 +158,11 @@ footer {
   text-align: center;
   justify-content: center;
   padding: 3em 0;
+  gap: 2em;
+}
+
+.footer-logo img {
+  width: 17em;
 }
 
 @media screen and (max-width: 600px) {
