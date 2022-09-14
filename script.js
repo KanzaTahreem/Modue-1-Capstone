@@ -75,6 +75,7 @@ window.onload = () => {
       </div>
     </div>
   `);
+
   const parser = new DOMParser();
 
   speakerCardString.forEach((projectString) => {
