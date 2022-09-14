@@ -1,6 +1,8 @@
-/*
-headline section
-*/
+ul * {
+  list-style-type: none;
+}
+
+/* headline section */
 
 .bg-06 {
   width: 40px;
@@ -45,9 +47,7 @@ headline section
   font-weight: 700;
 }
 
-/*
-logo-competition
-*/
+/* logo-competition */
 
 .logo-competition,
 .past-summit,
@@ -74,9 +74,7 @@ logo-competition
   border: 2px solid #e8e6e6ce;
 }
 
-/*
-past icp
-*/
+/* past icp */
 
 .past-summit > h2 {
   font-size: 1.2em;
@@ -92,9 +90,7 @@ past icp
   max-height: 100%;
 }
 
-/*
-footer
-*/
+/* footer */
 
 footer {
   background-color: white;
@@ -106,9 +102,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  /*
-  headline
-  */
+  /* headline */
 
   .title {
     font-size: 3em;
@@ -118,9 +112,7 @@ footer {
     font-size: 2em;
   }
 
-  /*
-  past icp
-  */
+  /* past icp */
 
   .past-links {
     flex-direction: row;
@@ -129,9 +121,7 @@ footer {
     margin: 0 auto;
   }
 
-  /*
-  sponsors, footer
-  */
+  /* sponsors, footer */
 
   .sponsors {
     display: none;
