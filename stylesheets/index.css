@@ -3,7 +3,10 @@ headline section
 */
 
 .title {
-  font-size: 2.3em;
+  background-image: url('../images/background-images/text-bg.jpg');
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitle {

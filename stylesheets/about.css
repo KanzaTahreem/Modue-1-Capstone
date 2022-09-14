@@ -29,10 +29,6 @@ headline section
   position: absolute;
 }
 
-.title {
-  font-size: 2em;
-}
-
 .subtitle {
   border: 2px solid #e8e6e6ce;
   background-color: white;

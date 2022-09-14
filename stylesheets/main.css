@@ -104,6 +104,7 @@ headline section
 
 .title {
   font-weight: 900;
+  font-size: 2.2em;
 }
 
 .subtitle {
@@ -216,7 +217,7 @@ footer {
   .navlink {
     display: flex;
     padding: 0.5em 2em;
-    font-size: 0.8em;
+    font-size: 0.95em;
     text-decoration: none;
     color: #272a31;
     font-weight: 400;
