@@ -105,6 +105,10 @@ footer {
   color: #272a31;
 }
 
+.footer-desktop-logo {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   /*
   headline
@@ -134,6 +138,19 @@ footer {
   */
 
   .sponsors {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+    color: white;
+  }
+
+  .footer-desktop-logo {
+    display: flex;
+  }
+
+  .footer-mobile-logo {
     display: none;
   }
 }
