@@ -103,7 +103,6 @@ footer
 footer {
   background-color: #272a31;
   color: white;
-  gap: 2em;
 }
 
 .footer-logo img {
@@ -135,7 +134,7 @@ footer {
   }
 
   /*
-  sponsors
+  sponsors, footer
   */
 
   .sponsors {
