@@ -137,7 +137,7 @@ sponsors
   gap: 1em;
 }
 
-.sponsors-logo .logos img {
+.sponsors-logo img {
   width: 6em;
 }
 
@@ -162,7 +162,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 17em;
+  width: 15em;
 }
 
 @media screen and (max-width: 600px) {
