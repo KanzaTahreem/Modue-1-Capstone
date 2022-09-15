@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.brand-color {
+  color: #ec5242;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.top-header {
+  display: flex;
+  background-color: #272a31;
+  color: white;
+  padding: 0 9em;
+}
+
+.top-header i,
+.top-header p {
+  padding-left: 1.5em;
+  font-size: 0.9em;
+}
+
+/* nav-bar */
+
+.hamburger {
+  font-size: 2em;
+  padding: 1em;
+  color: #272a31;
+}
+
+/* mobile pop-up menu */
+
+.pop-up {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  mix-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 2.25em;
+  backdrop-filter: blur(15px);
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  padding-top: 0.5em;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(211, 211, 211, 0.1);
+}
+
+.navlink:hover {
+  color: #ec5242;
+}
+
+.close {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.75em;
+  cursor: pointer;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* headline section */
+
+.headline {
+  background-image: url('../images/background-images/background.jpg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 248, 0.9);
+  padding: 9em 1em;
+}
+
+.bg-01 {
+  width: 30px;
+  height: 30px;
+  top: 10%;
+  left: 15%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-02 {
+  width: 20px;
+  height: 20px;
+  top: 94%;
+  left: 35%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.bg-03 {
+  width: 40px;
+  height: 40px;
+  top: 4%;
+  right: 30%;
+  opacity: 0.2;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.bg-04 {
+  width: 40px;
+  height: 40px;
+  top: 79%;
+  left: 7%;
+  opacity: 0.3;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+.bg-05 {
+  width: 40px;
+  height: 40px;
+  top: 30%;
+  right: -18px;
+  position: absolute;
+}
+
+.greet {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2.2em;
+}
+
+.subtitle {
+  color: #272a31;
+  padding: 1em 0.5em;
+}
+
+.underline {
+  height: 1px;
+  background-color: #ec5242;
+  width: 2em;
+  margin-top: 0.5em;
+}
+
+/* sponsors */
+
+.sponsors {
+  background-color: #272a31;
+  color: #d3d3d3;
+  padding: 2em 0;
+}
+
+.sponsors-logo {
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 1em 0;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.sponsors-logo img {
+  width: 6em;
+}
+
+.sponsors h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.sponsors-logo > div {
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3em 0;
+  gap: 2em;
+}
+
+.footer-logo img {
+  width: 15em;
+}
+
+@media screen and (max-width: 600px) {
+  .logos img {
+    padding-bottom: 1em;
+  }
+
+  .sponsors-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .top-header {
+    display: none;
+  }
+
+  .program-details-link {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  /* nav-bar */
+
+  .bar-menu {
+    display: none;
+  }
+
+  .navbar-style {
+    box-shadow: 0 5px 15px -10px #272a31;
+    background-color: white;
+    padding: 0.5em 7em;
+  }
+
+  .navitem {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .hidden {
+    display: flex !important;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .pop-up {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: white;
+    color: #272a31;
+    position: relative;
+    width: initial;
+    height: initial;
+    gap: 2em;
+  }
+
+  .navlink {
+    display: flex;
+    padding: 0.5em 2em;
+    font-size: 0.95em;
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 400;
+  }
+
+  /* headline */
+
+  main {
+    padding-top: 6.03em;
+  }
+
+  .overlay {
+    padding: 9em;
+  }
+
+  .greet {
+    font-size: 1.75em;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    margin-bottom: 2em;
+  }
+}

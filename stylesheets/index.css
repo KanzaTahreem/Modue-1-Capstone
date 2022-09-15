@@ -1,0 +1,208 @@
+ul * {
+  list-style-type: none;
+}
+
+/*
+headline section
+*/
+
+.title {
+  background-image: url('../images/background-images/text-bg.jpg');
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  border: 3px solid white;
+  background-color: #f4f4f4;
+}
+
+.date {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #272a31;
+}
+
+.venu {
+  font-size: 1.25em;
+}
+
+/* program section */
+
+.program-content {
+  background-image: url('../images/background-images/pattern_bg.png');
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  align-items: center;
+}
+
+.program-content > h2 {
+  padding: 1.25em 0;
+  color: white;
+}
+
+.program-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.program-card {
+  align-items: center;
+  padding: 0.7em;
+  color: #d3d3d3;
+  background-color: rgba(211, 211, 211, 0.1);
+  margin-bottom: 0.5em;
+  gap: 1em;
+}
+
+.program-title {
+  align-items: center;
+  flex: 1;
+}
+
+.program-card img {
+  width: 40px;
+}
+
+.program-card h3 {
+  font-size: 1em;
+  font-weight: 700;
+  width: 8ch;
+}
+
+.card-desc {
+  font-size: 0.9em;
+  flex: 2;
+}
+
+.join-btn {
+  background: #ec5242;
+  margin: 3em;
+  border: none;
+  padding: 1.25em 2em;
+  font-size: 1em;
+  color: white;
+}
+
+/* featured speakers */
+
+.featured-speakers {
+  padding: 2em 1em;
+}
+
+.speaker-img img {
+  width: 9em;
+  margin-right: 1em;
+}
+
+.speaker-card {
+  width: 100%;
+}
+
+.speaker-title {
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.speaker-qualification {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.speaker-desc {
+  font-size: 0.7em;
+}
+
+.speaker-underline {
+  background-color: #d3d3d3;
+  margin: 1em 0;
+  width: 1.5em;
+  height: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  /*  headline section */
+
+  .title {
+    font-size: 3.2em;
+  }
+
+  .subtitle {
+    width: 55vw;
+  }
+
+  .date {
+    font-size: 2em;
+  }
+
+  /* program section */
+
+  .program-details {
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .program-card {
+    flex-direction: column;
+    text-align: center;
+    margin: 0.2em;
+  }
+
+  .program-card h3 {
+    width: 100%;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .program-details-link {
+    margin: 3em 0;
+    color: #d3d3d3;
+    font-size: 1.2em;
+  }
+
+  /* featured speakers */
+
+  .featured-speakers {
+    background-color: rgba(247, 247, 248);
+  }
+
+  .speaker-card {
+    width: 50%;
+  }
+
+  .speaker-details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 2em auto;
+  }
+
+  /* sponsors, footer */
+
+  .sponsors-logo {
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  footer {
+    background-color: rgba(247, 247, 248);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .speaker-details {
+    width: 70vw;
+  }
+}
