@@ -11,7 +11,21 @@
 header {
   position: absolute;
   top: 0;
+  width: 100%;
   z-index: 999;
+}
+
+.top-header {
+  display: flex;
+  background-color: #272a31;
+  color: white;
+  padding: 0 9em;
+}
+
+.top-header i,
+.top-header p {
+  padding-left: 1.5em;
+  font-size: 0.9em;
 }
 
 /* nav-bar */
@@ -50,6 +64,10 @@ header {
   padding-top: 0.5em;
   cursor: pointer;
   border-bottom: 1px solid rgb(211, 211, 211, 0.1);
+}
+
+.navlink:hover {
+  color: #ec5242;
 }
 
 .close {
@@ -215,7 +233,8 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .logo {
+  .logo,
+  .top-header {
     display: none;
   }
 
@@ -233,8 +252,6 @@ footer {
 
   .navbar-style {
     box-shadow: 0 5px 15px -10px #272a31;
-    position: fixed;
-    width: 100%;
     background-color: white;
     padding: 0.5em 7em;
   }
@@ -273,15 +290,11 @@ footer {
     font-weight: 400;
   }
 
-  .navlink:hover {
-    color: #ec5242;
-  }
+  /* headline */
 
   main {
-    padding-top: 57.06px;
+    padding-top: 6.03em;
   }
-
-  /* headline */
 
   .overlay {
     padding: 9em;
